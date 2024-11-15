@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration Form</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form class="form" id="form">
+        <h1 class="title">Registeration Form</h1>
+        <div id="form" class="form-control">
+            <label for="username">Username:</label>
+            <input id="username" type="text" name="username"></input>
+            <span class="error"></span>
+        </div>
+        <div class="form-control">
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email"></input>
+            <span class="error"></span>
+        </div>
+        <div class="form-control">
+            <label for="password">Password</label>
+            <div class="in">
+                <input id="password" type="password" name="password"/>
+                <i class="sp1 ri-eye-line"></i>
+            </div>
+            <span class="error"></span>
+        </div>
+        <div class="form-control">
+            <label for="cp">Confirm Password</label>
+            <div class="in">
+                <input id="cpassword" type="password" name="cp"></input>
+                <i class="sp2 ri-eye-line"></i>
+            </div>
+            <span class="error"></span>
+        </div>
+        <input id="btn" type="submit" value="submit">
+    </form>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
